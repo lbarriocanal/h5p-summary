@@ -20,7 +20,7 @@
         "label": "Conjunto de oraciones",
         "fields": [
           {
-            "label": "Lista de roraciones para el resumen - la primera oración es la correcta.",
+            "label": "Lista de oraciones para el resumen - la primera oración es la correcta.",
             "entity": "oración",
             "field": {
               "label": "Oración"
@@ -38,7 +38,7 @@
       }
     },
     {
-      "label": "Realimentación Global",
+      "label": "Retroalimentación Global",
       "fields": [
         {
           "widgets": [
@@ -46,7 +46,7 @@
               "label": "Predeterminado"
             }
           ],
-          "label": "Definir realimentación personalizada para cualquier rango de puntaje",
+          "label": "Definir retroalimentación personalizada para cualquier rango de puntaje",
           "description": "Haga clic en el botón para \"Añadir rango\" para añadir cuantos rangos necesite. Ejemplo: 0-20% Mal puntaje, 21-91% Puntaje Promedio, 91-100% ¡Magnífico Puntaje!",
           "entity": "rango",
           "field": {
@@ -56,8 +56,8 @@
               },
               {},
               {
-                "label": "Realimentación para rango de puntaje definido",
-                "placeholder": "LLene la realimentación"
+                "label": "Retroalimentación para rango de puntaje definido",
+                "placeholder": "LLene la retroalimentación"
               }
             ]
           }
@@ -70,14 +70,14 @@
       "description": "Será mostrado arriba de las oraciones. Ejemplo: 'Progreso: 2/5'"
     },
     {
-      "label": "Texto mostrado antes de varias oraciones incorrectas  seleccionadas en el trabajo resumido.",
+      "label": "Texto mostrado antes de varias oraciones incorrectas seleccionadas en el trabajo resumido.",
       "default": "Respuestas incorrectas:",
       "description": "Será mostrado arriba de las oraciones. Ejemplo: 'Respuestas incorrectas: 4'"
     },
     {
-      "label": "Encabezado de Realimentación Resumida",
+      "label": "Encabezado de Retroalimentación Resumida",
       "default": "Su resultado",
-      "description": "Será mostrado arriba de realimentaciuón resumida."
+      "description": "Será mostrado arriba de retroalimentaciuón resumida."
     },
     {
       "label": "Texto de Lector de voz para respuesta correcta",
